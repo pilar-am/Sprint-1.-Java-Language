@@ -1,0 +1,19 @@
+package n1exercici2;
+
+public class CalculoDni {
+
+	/*
+	 * 
+Crea una classe anomenada CalculoDni que calculi la lletra del DNI en rebre el número com a paràmetre.
+Crea una classe jUnit que verifiqui el seu correcte funcionament, parametritzant-la perquè el test rebi 
+un espectre de dades ampli i validi si el càlcul és correcte per a 10 números de DNI predefinits.
+
+	 */
+	
+    public static char calcularLletra(int dni){
+        String caracters="TRWAGMYFPDXBNJZSQVHLCKE";
+        int residu = dni%23;
+        return caracters.charAt(residu);
+    }
+	
+}
