@@ -23,5 +23,22 @@ public abstract class Noticia {
 	
 
 	public abstract int calcularPuntuacioNoticia();
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+	
 	
 }

@@ -8,7 +8,6 @@ public abstract class Instrument {
 	//public static String nomStatic = "Instrument";
 		
 	public Instrument(String nom, double preu) {
-		super();
 		this.nom = nom;
 		this.preu = preu;
 	}

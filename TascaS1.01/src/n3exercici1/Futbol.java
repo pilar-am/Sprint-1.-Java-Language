@@ -53,9 +53,51 @@ public class Futbol extends Noticia{
 
 	@Override
 	public String toString() {
-		return "Futbol [competicio=" + competicio + ", club=" + club + ", jugador=" + jugador + ", puntuacio="
+		return "Futbol [titular=" +super.getTitular()+ ", competicio=" + competicio + ", club=" + club + ", jugador=" + jugador + ", puntuacio="
 				+ puntuacio + ", preu=" + preu + "]";
 	}
+
+	public String getCompeticio() {
+		return competicio;
+	}
+
+	public void setCompeticio(String competicio) {
+		this.competicio = competicio;
+	}
+
+	public String getClub() {
+		return club;
+	}
+
+	public void setClub(String club) {
+		this.club = club;
+	}
+
+	public String getJugador() {
+		return jugador;
+	}
+
+	public void setJugador(String jugador) {
+		this.jugador = jugador;
+	}
+
+	public int getPuntuacio() {
+		return puntuacio;
+	}
+
+	public void setPuntuacio(int puntuacio) {
+		this.puntuacio = puntuacio;
+	}
+
+	public int getPreu() {
+		return preu;
+	}
+
+	public void setPreu(int preu) {
+		this.preu = preu;
+	}
+	
+	
 	
 	
 	

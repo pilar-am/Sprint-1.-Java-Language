@@ -33,9 +33,36 @@ public class Redactor {
 		noticias.add(noticia);
 	}
 
+	
+	
+	public String getNom() {
+		return nom;
+	}
+
+	public static int getSou() {
+		return sou;
+	}
+
+	public static void setSou(int sou) {
+		Redactor.sou = sou;
+	}
+
+	public ArrayList<Noticia> getNoticias() {
+		return noticias;
+	}
+
+	public void setNoticias(ArrayList<Noticia> noticias) {
+		this.noticias = noticias;
+	}
+	
+
+	public String getDNI() {
+		return DNI;
+	}
+
 	@Override
 	public String toString() {
-		return "REDACTOR\nNom = " + nom + "\nDNI= " + DNI + "\nNoticias: " + noticias + " ";
+		return "Nom = " + nom + "  DNI= " + DNI + "  Noticias: " + noticias + " ";
 	}
 	
 

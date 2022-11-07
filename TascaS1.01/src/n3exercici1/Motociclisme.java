@@ -36,6 +36,30 @@ public class Motociclisme extends Noticia{
 	public String toString() {
 		return "Motociclisme [equip=" + equip + ", puntuacio=" + puntuacio + ", preu=" + preu + "]";
 	}
+
+	public String getEquip() {
+		return equip;
+	}
+
+	public void setEquip(String equip) {
+		this.equip = equip;
+	}
+
+	public int getPuntuacio() {
+		return puntuacio;
+	}
+
+	public void setPuntuacio(int puntuacio) {
+		this.puntuacio = puntuacio;
+	}
+
+	public int getPreu() {
+		return preu;
+	}
+
+	public void setPreu(int preu) {
+		this.preu = preu;
+	}
 	
 	
 	

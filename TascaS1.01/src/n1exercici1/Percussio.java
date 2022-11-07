@@ -6,7 +6,7 @@ public class Percussio extends Instrument{
 	
 	public Percussio(String nom, double preu) {
 		super(nom, preu);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override

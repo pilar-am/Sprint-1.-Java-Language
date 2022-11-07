@@ -6,7 +6,7 @@ public class Vent extends Instrument{
 	
 	public Vent(String nom, double preu) {
 		super(nom, preu);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override

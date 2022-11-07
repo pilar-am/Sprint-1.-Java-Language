@@ -6,7 +6,7 @@ public class Corda extends Instrument{
 	
 	public Corda(String nom, double preu) {
 		super(nom, preu);
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override

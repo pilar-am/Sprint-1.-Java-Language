@@ -42,6 +42,30 @@ public class Tenis extends Noticia{
 		return "Tenis [competicio=" + competicio + ", tenistes=" + Arrays.toString(tenistes) + ", puntuacio="
 				+ puntuacio + ", preu=" + preu + "]";
 	}
+	public String getCompeticio() {
+		return competicio;
+	}
+	public void setCompeticio(String competicio) {
+		this.competicio = competicio;
+	}
+	public String[] getTenistes() {
+		return tenistes;
+	}
+	public void setTenistes(String[] tenistes) {
+		this.tenistes = tenistes;
+	}
+	public int getPuntuacio() {
+		return puntuacio;
+	}
+	public void setPuntuacio(int puntuacio) {
+		this.puntuacio = puntuacio;
+	}
+	public int getPreu() {
+		return preu;
+	}
+	public void setPreu(int preu) {
+		this.preu = preu;
+	}
 	
 	
 	

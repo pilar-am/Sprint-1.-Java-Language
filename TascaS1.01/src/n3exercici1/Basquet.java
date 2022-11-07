@@ -45,6 +45,30 @@ public class Basquet extends Noticia{
 		return "Basquet [competicio=" + competicio + ", club=" + club + ", puntuacio=" + puntuacio + ", preu=" + preu
 				+ "]";
 	}
+	public String getCompeticio() {
+		return competicio;
+	}
+	public void setCompeticio(String competicio) {
+		this.competicio = competicio;
+	}
+	public String getClub() {
+		return club;
+	}
+	public void setClub(String club) {
+		this.club = club;
+	}
+	public int getPuntuacio() {
+		return puntuacio;
+	}
+	public void setPuntuacio(int puntuacio) {
+		this.puntuacio = puntuacio;
+	}
+	public int getPreu() {
+		return preu;
+	}
+	public void setPreu(int preu) {
+		this.preu = preu;
+	}
 	
 	
 }

@@ -37,6 +37,30 @@ public class F1 extends Noticia{
 	public String toString() {
 		return "F1 [escuderia=" + escuderia + ", puntuacio=" + puntuacio + ", preu=" + preu + "]";
 	}
+
+	public String getEscuderia() {
+		return escuderia;
+	}
+
+	public void setEscuderia(String escuderia) {
+		this.escuderia = escuderia;
+	}
+
+	public int getPuntuacio() {
+		return puntuacio;
+	}
+
+	public void setPuntuacio(int puntuacio) {
+		this.puntuacio = puntuacio;
+	}
+
+	public int getPreu() {
+		return preu;
+	}
+
+	public void setPreu(int preu) {
+		this.preu = preu;
+	}
 	
 	
 	

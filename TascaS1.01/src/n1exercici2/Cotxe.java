@@ -8,6 +8,7 @@ public class Cotxe {
 	
 	//No es poden inicialitzar al constructor
 	
+	
 	public static void frenar() {
 		System.out.println("El vehicle està frenant");
 	}
