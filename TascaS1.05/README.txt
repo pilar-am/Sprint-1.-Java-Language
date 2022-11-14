@@ -8,3 +8,8 @@ A cmd: Compilar: javac Main.java
 Exercicis del nivell 1:
 	java Main C:\\Users\\prueba\\Documents\\EclipseWorkSpace\\Directorio C:\\Users\\prueba\\Documents\\EclipseWorkSpace\\Directorio\\fitxer.txt C:\\Users\\prueba\\Documents\\EclipseWorkSpace\\Directorio\\quijote.txt fitxer.ser
 	
+
+Exercici n2exercici1
+javac ArxiuConfig.java
+PS C:\Users\prueba\Desktop\prueba> java ArxiuConfig C:\\Users\\prueba\\Documents\\EclipseWorkSpace\\Directorio C:\\Users\\prueba\\Documents\\EclipseWorkSpace\\Directorio\\fitxer.txt
+
